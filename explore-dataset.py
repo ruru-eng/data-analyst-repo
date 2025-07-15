@@ -1,5 +1,7 @@
 import pandas as pd
 
+pd.set_option('display.max_rows', None)
+
 df = pd.read_csv("../survey_data.csv")
 
 # display the top 5 rows and columns of the dataset 
