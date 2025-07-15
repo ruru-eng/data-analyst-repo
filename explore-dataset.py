@@ -1,7 +1,7 @@
 import pandas as pd
 
 pd.set_option('display.max_rows', None)
-
+pwd="/Users/kristynaidzakovicova/Desktop/Data Analyst/git-commits/data-analyst-repo"
 df = pd.read_csv("../survey_data.csv")
 
 # display the top 5 rows and columns of the dataset 
