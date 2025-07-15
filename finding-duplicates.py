@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # load the dataset directly from the URL
-pwd="/Users/kristynaidzakovicova/Desktop/Data Analyst/git-commits/data-analyst-repo"
+pwd="path/to/file"
 df = pd.read_csv(pwd+"/survey_data_with_duplicate.csv")
 
 # display the first few rows
