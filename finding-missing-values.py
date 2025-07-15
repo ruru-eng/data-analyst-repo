@@ -32,7 +32,7 @@ for i,ind in enumerate(df[col].isnull().value_counts().index):
 print(f"Most frequent value in {col} column is {df[col].value_counts().index[0]} with {df[col].value_counts().values[0]} occurences.")
 
 # T6: Impute missing values in the specific column (e.g., Employment) with the most frequent value.
-most_freq=df[col].value_counts().values[0]
+most_freq=df[col].value_counts().index[0]
 df[col].replace(np.nan,most_freq,inplace=True)
 
 # T7: Visualize the distribution of a column after imputation (e.g., Employment).
