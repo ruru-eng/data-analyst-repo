@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 
-pwd="path/to/folder"
+pwd="/Users/kristynaidzakovicova/Desktop/Data Analyst/git-commits/data-analyst-repo"
 
 file_url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/n01PQ9pSmiRX6520flujwQ/survey-data.csv"
 df = pd.read_csv(file_url)
@@ -21,6 +21,7 @@ df.dropna(subset=["ConvertedCompYearly"],inplace=True)
 
 mean_comp=df["ConvertedCompYearly"].mean()
 med_comp=df["ConvertedCompYearly"].median()
+print(med_comp)
 std_comp=df["ConvertedCompYearly"].std()
 
 high_comp=0
