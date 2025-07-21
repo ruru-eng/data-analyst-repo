@@ -7,7 +7,7 @@ from collections import Counter
 
 import sqlite3
 
-path="/Users/kristynaidzakovicova/Desktop/Data Analyst/git-commits/data-analyst-repo"
+path="path/to/folder"
 df=pd.read_csv(path+"/survey_data.csv")
 
 # conn = sqlite3.connect('survey-data.sqlite')
